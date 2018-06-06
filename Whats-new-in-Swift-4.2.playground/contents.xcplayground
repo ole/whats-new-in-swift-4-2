@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered'>
+    <pages>
+        <page name='Table of contents'/>
+        <page name='Bool.toggle'/>
+        <page name='Sequence and Collection algorithms'/>
+        <page name='Enumerating enum cases'/>
+        <page name='Random numbers'/>
+        <page name='Hashable redesign'/>
+        <page name='Conditional conformance'/>
+        <page name='Dynamic member lookup'/>
+        <page name='#error and #warning'/>
+        <page name='MemoryLayout.offset'/>
+        <page name='inlinable'/>
+        <page name='Immutable withUnsafePointer'/>
+    </pages>
+</playground>

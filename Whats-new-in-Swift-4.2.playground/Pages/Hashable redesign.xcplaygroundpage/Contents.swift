@@ -11,7 +11,7 @@
 
  The advantage over the old way is that you don’t have to come up with your own algorithm for combining the hash values your type is composed of. The hash function provided by the standard library (in the form of `Hasher`) is almost certainly better and more secure than anything most of us would write.
 
- As an example, here is a type with one stored property that acts as a cache for an expensive computation. We should ignore the value of `distanceFromOrigin` should in our `Equatable` and `Hashable` implementations:
+ As an example, here is a type with one stored property that acts as a cache for an expensive computation. We should ignore the value of `distanceFromOrigin` in our `Equatable` and `Hashable` implementations:
  */
 struct Point {
     var x: Int { didSet { recomputeDistance() } }

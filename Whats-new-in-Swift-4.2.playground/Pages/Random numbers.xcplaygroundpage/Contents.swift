@@ -65,8 +65,8 @@ struct MyRandomNumberGenerator: RandomNumberGenerator {
     }
 }
 
-var badRNG = MyRandomNumberGenerator()
-let notRandomAtAll = Int.random(in: 0...100, using: &badRNG)
+var customRNG = MyRandomNumberGenerator()
+Int.random(in: 0...100, using: &customRNG)
 
 /*:
  ## Extending your own types

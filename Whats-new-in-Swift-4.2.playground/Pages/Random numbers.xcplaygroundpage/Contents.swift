@@ -21,16 +21,16 @@ This API nicely protects you from a common error when generating random numbers,
  `Bool.random` is also a thing:
  */
 func coinToss(count tossCount: Int) -> (heads: Int, tails: Int) {
-    var result = (heads: 0, tails: 0)
+    var tally = (heads: 0, tails: 0)
     for _ in 0..<tossCount {
-        let toss = Bool.random()
-        if toss {
-            result.heads += 1
+        let isHeads = Bool.random()
+        if isHeads {
+            tally.heads += 1
         } else {
-            result.tails += 1
+            tally.tails += 1
         }
     }
-    return result
+    return tally
 }
 
 let (heads, tails) = coinToss(count: 100)

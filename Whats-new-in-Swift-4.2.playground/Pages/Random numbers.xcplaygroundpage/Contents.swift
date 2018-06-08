@@ -45,10 +45,17 @@ let emotions = "😀😂😊😍🤪😎😩😭😡"
 let randomEmotion = emotions.randomElement()!
 
 /*:
- Use the `shuffled` method to shuffle a collection:
+ Use the `shuffled` method to shuffle a sequence or collection:
  */
 let numbers = 1...10
 let shuffled = numbers.shuffled()
+
+/*:
+ There’s also a mutating variant named `shuffle`. It’s available on all types that conform to `MutableCollection` and `RandomAccessCollection`:
+ */
+var mutableNumbers = Array(numbers)
+// Shuffles in place
+mutableNumbers.shuffle()
 
 /*:
  ## Custom random number generators

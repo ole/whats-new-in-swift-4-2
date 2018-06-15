@@ -13,7 +13,7 @@
  */
 // Inside CollectionAlgorithms module:
 extension Sequence where Element: Equatable {
-    /// Returns `true` iff all elements in the sequence are equal.
+    /// Returns `true` if all elements in the sequence are equal.
     @inlinable
     public func allEqual() -> Bool {
         var iterator = makeIterator()

@@ -34,7 +34,7 @@ func coinToss(count tossCount: Int) -> (heads: Int, tails: Int) {
 }
 
 let (heads, tails) = coinToss(count: 100)
-print("100 coin tosses — heads: \(heads), tails: \(tails)")
+"100 coin tosses — heads: \(heads), tails: \(tails)"
 
 /*:
  ## Random collection elements

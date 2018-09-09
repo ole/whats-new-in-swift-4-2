@@ -60,13 +60,13 @@ mutableNumbers.shuffle()
 /*:
  ## Custom random number generators
 
- The standard library ships with a default random number generator, `Random.default`, that is probably a good choice for most simple use cases.
+ The standard library ships with a default random number generator, `SystemRandomNumberGenerator()`, that is probably a good choice for most simple use cases.
 
  If you have special requirements, you can implement your own random number generator by adopting the `RandomNumberGenerator` protocol. All APIs for generating random values provide an overload that allows users to pass in their preferred random number generator:
  */
-/// A dummy random number generator that just mimics `Random.default`.
+/// A dummy random number generator that just mimics `SystemRandomNumberGenerator`.
 struct MyRandomNumberGenerator: RandomNumberGenerator {
-    var base = Random.default
+    var base = SystemRandomNumberGenerator()
     mutating func next() -> UInt64 {
         return base.next()
     }
@@ -93,7 +93,8 @@ enum Suit: String, CaseIterable {
     }
 
     static func random() -> Suit {
-        return Suit.random(using: &Random.default)
+        var rng = SystemRandomNumberGenerator()
+        return Suit.random(using: &rng)
     }
 }
 

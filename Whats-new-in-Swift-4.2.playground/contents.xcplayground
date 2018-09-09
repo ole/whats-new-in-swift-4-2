@@ -10,6 +10,7 @@
         <page name='Conditional conformance'/>
         <page name='Dynamic member lookup'/>
         <page name='#error and #warning'/>
+        <page name='#if compiler version directive'/>
         <page name='MemoryLayout.offset'/>
         <page name='inlinable'/>
         <page name='Immutable withUnsafePointer'/>

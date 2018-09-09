@@ -14,6 +14,7 @@
  1. [Conditional conformance enhancements](Conditional%20conformance)
  1. [Dynamic member lookup](Dynamic%20member%20lookup)
  1. [`#error` and `#warning`](%23error%20and%20%23warning)
+ 1. [`#if compiler` version directive](%23if%20compiler%20version%20directive)
  1. [`MemoryLayout.offset(of:)`](MemoryLayout.offset)
  1. [`@inlinable`](inlinable)
  1. [Immutable `withUnsafePointer`](Immutable%20withUnsafePointer)

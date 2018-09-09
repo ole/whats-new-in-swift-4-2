@@ -14,6 +14,7 @@
  1. [Conditional conformance enhancements](Conditional%20conformance)
  1. [Dynamic member lookup](Dynamic%20member%20lookup)
  1. [Implicitly unwrapped optionals](Implicitly%20unwrapped%20optionals)
+ 1. [guard let self = self](guard%20let%20self%20=%20self)
  1. [`#error` and `#warning`](%23error%20and%20%23warning)
  1. [`#if compiler` version directive](%23if%20compiler%20version%20directive)
  1. [`MemoryLayout.offset(of:)`](MemoryLayout.offset)

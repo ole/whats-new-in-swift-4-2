@@ -10,6 +10,7 @@
         <page name='Conditional conformance'/>
         <page name='Dynamic member lookup'/>
         <page name='Implicitly unwrapped optionals'/>
+        <page name='guard let self = self'/>
         <page name='#error and #warning'/>
         <page name='#if compiler version directive'/>
         <page name='MemoryLayout.offset'/>

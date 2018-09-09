@@ -102,5 +102,8 @@ let randomSuit = Suit.random()
 randomSuit.rawValue
 
 /*:
+ I wrote an article about the random APIs that goes into more detail: [Random numbers in Swift](https://oleb.net/blog/2018/06/random-numbers-in-swift/).
+ */
+/*:
  [Table of contents](Table%20of%20contents) • [Previous page](@previous) • [Next page](@next)
  */

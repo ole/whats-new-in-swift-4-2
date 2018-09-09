@@ -53,6 +53,8 @@ environment.MY_VAR
  This is a big feature that has the potential to change how Swift is used in fundamental ways if misused. By hiding a fundamentally “unsafe” string-based access behind a seemingly “safe” construct, you may give readers of your code the wrong impression that things have been checked by the compiler.
 
  Before you adopt this in your own code, ask yourself if `environment.USER` is really that much more readable than `environment["USER"]` to be worth the downsides. In most situations, I think the answer should be “no”.
+
+ I wrote an article about `@dynamicMemberLookup` that goes into more detail: [Thoughts on @dynamicMemberLookup](https://oleb.net/blog/2018/06/dynamic-member-lookup/).
  */
 /*:
  [Table of contents](Table%20of%20contents) • [Previous page](@previous) • [Next page](@next)

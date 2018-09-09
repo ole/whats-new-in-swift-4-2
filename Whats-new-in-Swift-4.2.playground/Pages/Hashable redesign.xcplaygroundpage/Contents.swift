@@ -7,7 +7,7 @@
 
  But if you need to customize a type’s `Hashable` conformance, the redesign of the `Hashable` protocol ([SE-0206](https://github.com/apple/swift-evolution/blob/master/proposals/0206-hashable-enhancements.md "Hashable Enhancements")) makes this task much easier.
 
- In the new `Hashable` world, instead of implementing `hashValue`, you now have to implement the `hash(into:)` method. This method provides a `Hasher` object, and all you have to do in your implementation is feed it the values you want to include in your hash value by repeatedly calling `hasher.combine(_:)`.
+ In the new `Hashable` world, instead of implementing `hashValue`, you now implement the `hash(into:)` method. This method provides a `Hasher` object, and all you have to do in your implementation is feed it the values you want to include in your hash value by repeatedly calling `hasher.combine(_:)`.
 
  The advantage over the old way is that you don’t have to come up with your own algorithm for combining the hash values your type is composed of. The hash function provided by the standard library (in the form of `Hasher`) is almost certainly better and more secure than anything most of us would write.
 

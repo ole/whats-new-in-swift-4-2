@@ -16,7 +16,7 @@ UInt8.random(in: .min ... .max)
 Double.random(in: 0..<1)
 
 /*:
-This API nicely protects you from a common error when generating random numbers, [modulo bias](https://www.quora.com/What-is-modulo-bias).
+The API is designed to protect you from accidentally introducing [modulo bias](https://www.quora.com/What-is-modulo-bias), a common error when generating random numbers.
 
  `Bool.random` is also a thing:
  */

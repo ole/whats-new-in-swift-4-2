@@ -1,7 +1,7 @@
 /*:
  # What’s new in Swift 4.2
 
- By [Ole Begemann](https://oleb.net) • June 2018\
+ By [Ole Begemann](https://oleb.net) • June–September 2018\
  [Source on GitHub](https://github.com/ole/whats-new-in-swift-4-2)
 
  ## Contents
@@ -21,7 +21,7 @@
 
  ## Requirements
 
- This playground requires Xcode 10 or a recent Swift 4.2 snapshot. Download the latest Xcode 10 beta from <https://developer.apple.com/download/> or a Swift 4.2 snapshot from <https://swift.org/download/#snapshots>.
+ This playground requires Swift 4.2, which ships with Xcode 10. Download Xcode 10 [from Apple’s Developer Site](https://developer.apple.com/download/) or [from the Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), or download a Swift 4.2 snapshot [from swift.org](https://swift.org/download/#snapshots).
 
  ## Note
 

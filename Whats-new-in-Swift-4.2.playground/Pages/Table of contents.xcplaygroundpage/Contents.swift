@@ -12,6 +12,7 @@
  1. [Random numbers](Random%20numbers)
  1. [Hashable redesign](Hashable%20redesign)
  1. [Conditional conformance enhancements](Conditional%20conformance)
+ 1. [Removal of `CountableRange` and `CountableClosedRange`](Ranges)
  1. [Dynamic member lookup](Dynamic%20member%20lookup)
  1. [Implicitly unwrapped optionals](Implicitly%20unwrapped%20optionals)
  1. [guard let self = self](guard%20let%20self%20=%20self)

@@ -8,6 +8,7 @@
         <page name='Random numbers'/>
         <page name='Hashable redesign'/>
         <page name='Conditional conformance'/>
+        <page name='Ranges'/>
         <page name='Dynamic member lookup'/>
         <page name='Implicitly unwrapped optionals'/>
         <page name='guard let self = self'/>

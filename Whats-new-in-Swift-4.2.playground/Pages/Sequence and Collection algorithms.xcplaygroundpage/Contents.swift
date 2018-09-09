@@ -44,5 +44,17 @@ let firstWord = firstWordBreak.map { text[..<$0] }
 firstWord
 
 /*:
+ ## `removeAll(where:)`
+
+ [SE-0197](https://github.com/apple/swift-evolution/blob/master/proposals/0197-remove-where.md "Adding in-place removeAll(where:) to the Standard Library") adds a `removeAll(where:)` method to `RangeReplaceableCollection`, allowing you to remove all elements from a collection that match the given predicate.
+
+ It’s essentially a mutating variant of `filter` with an inverted predicate — `filter` _keeps_ elements that match the predicate, whereas `removeAll(where:)` _removes_ them.
+ */
+
+var numbers = Array(1...10)
+numbers.removeAll(where: { $0 % 2 != 0 })
+numbers
+
+/*:
  [Table of contents](Table%20of%20contents) • [Previous page](@previous) • [Next page](@next)
  */

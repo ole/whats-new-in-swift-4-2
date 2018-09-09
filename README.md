@@ -2,7 +2,7 @@
 
 An Xcode playground demonstrating the new features in Swift 4.2.
 
-Written by [Ole Begemann](https://oleb.net), June 2018.
+Written by [Ole Begemann](https://oleb.net), June–September 2018.
 
 The playground requires Swift 4.2. Xcode 10 includes Swift 4.2 by default. [Download the latest Xcode 10 beta](https://developer.apple.com/download/).
 

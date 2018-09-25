@@ -9,7 +9,7 @@
 
  Swift 4.2 introduces a similar consolidation for ranges. The formerly concrete types `CountableRange` and `CountableClosedRange` have been removed in favor of conditional conformances for `Range` and `ClosedRange`.
 
- The purpose of the countable range types was to allow a range to be a `Collection` if its underlying element type was _countable_ (i.e., it conformed to the `Strideable` protocol). For example, range of integers can be collections, but ranges of floating-point numbers can't
+ The purpose of the countable range types was to allow a range to be a `Collection` if its underlying element type was _countable_ (i.e., it conformed to the `Strideable` protocol and used signed integers for striding). For example, range of integers can be collections, but ranges of floating-point numbers can't
  */
 
 let integerRange: Range = 0..<5
